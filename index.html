@@ -7,11 +7,26 @@
 </head>
 <body>
 
-    <h1>Titolo della pagina</h1>
+    <h1 id="titlePage">Titolo della pagina</h1>
 
 
 
     <script>
+        /*var prova = 'funziona!';
+        console.log(prova);*/
+
+        /*console.log('funziona!');*/
+
+
+        var nome = prompt('scrivi il tuo nome: ');
+        var cognome = prompt('scrivi il tuo cognome: ');
+        var colore = prompt('scrivi il tuo colore preferito: ');
+
+        var datiUtente = nome + cognome + colore;
+
+        document.getElementById('titlePage').innerHTML = datiUtente;
+
+
 
     </script>
 
